@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+
+h1{
+    background-color: yellow;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+p {
+    border: 1px solid red;
+    margin: 20px 40px 20px 40px;
+    width: 400px;
+    margin: 0 auto;
+    display: inline-block;
+
+}
+
+/* .first_paragraph{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;}  */
+.first_paragraph{
+    box-sizing: content-box;
+}
+.second_paragraph{
+    box-sizing:border-box;
+
+a{
+    border: 1px solid red;
+    width: 400px;
+    height: 100px;
+    transition: 0.3s all linear;
+}
+
+a:hover{
+color: red;
+font-size:20px;
+}

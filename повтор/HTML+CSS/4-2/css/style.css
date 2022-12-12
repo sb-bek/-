@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+
+.container{
+    width: 500px;
+    margin: 40px auto;
+    height: 300px;
+    position: relative;
+    margin-bottom: 2000px;
+}
+.container .red, 
+.container .blue{
+    width: 100%;
+    height: 200px;}
+
+.container .red {
+        background-color: red;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 3;
+}
+
+.container .blue{
+       background-color: blue;
+       position: absolute;
+       left: 20px;
+       z-index: 2;
+}
+.round{
+    position: fixed;
+    width: 75px;
+    height: 75px;
+    background: #000;
+    border-radius: 50%;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999;
+
+}
+
+
+

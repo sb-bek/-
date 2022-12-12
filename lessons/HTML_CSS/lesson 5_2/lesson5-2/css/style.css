@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.cont{
+    width: 87%;
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    width: 28%;
+    height: 250px;
+    background-color: #000;
+}
+    
+
+
+.col img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s all linear;
+    cursor:pointer;
+}
+
+.col:last-child{
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.col:first-child:hover img{
+    transform: translait(30deg; 30deg);
+}
+
+.col:nth-child:hover img{
+    transform: rotate(-30dex);
+}
+
+.col:last-child: hover img{
+    transform: rotate(-30deg);
+}
+.col:last-child: hover img{
+    transform: xcale(1.3);
+}
+
+

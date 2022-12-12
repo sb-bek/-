@@ -1,0 +1,16 @@
+.col{
+    width: 87%;
+    background: #efe00c;
+    height: 500px;
+    display: flex;
+
+}
+.not{
+   width: 20%;
+   height: 200px;
+background: rgb(9, 221, 37);
+margin: 10px;
+}
+
+
+a.link{color: rgb(238, 255, 0);}

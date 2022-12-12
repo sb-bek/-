@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 87%;
+    margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 40px;
+}
+
+.col{
+    width: 30%;
+    height: 250px;
+    background: #000;  
+}
+

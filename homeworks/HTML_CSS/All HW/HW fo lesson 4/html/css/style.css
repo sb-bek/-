@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+*/*cont{
+    width: 87%;
+    height: 40px;
+    background: #000;
+}*/
+
+a{
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: space-around;
+}
+a:hover{color: black;}
+a:active{color: yellow;}
+
+.hoody .post: nth-child(1){
+    width: 25%;
+    
+}
+
+
+.hoody{
+    background: yellow;: ;
+    
+  
+    display: inline;
+    justify-content: left;
+    box-sizing: border-box;
+}

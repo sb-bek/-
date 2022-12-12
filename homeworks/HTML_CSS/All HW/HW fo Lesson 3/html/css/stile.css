@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background: #000;
+}
+
+a{
+    
+    width: 18%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: space-around;
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    color: yellow;
+}
+
+.lesson_title{
+   
+    color:  yellow;
+    text-align: center;
+    width: 50%;
+    margin: 40px auto;
+    text-decoration: underline;
+}
+
+.content{
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 30%;
+    height: 400px;
+    margin: 20px;
+    display: inline-block;
+    box-sizing: border-box;  
+    }
+
+   .title, .text{
+    margin: 20px;
+    display: block;
+   
+    text-align: center;
+    justify-content: space-around;
+    color: yellow;
+
+   }
+   img{
+    display: block;
+   justify-content: center;
+   }

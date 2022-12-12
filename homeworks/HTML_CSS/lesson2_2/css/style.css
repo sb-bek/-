@@ -1,0 +1,19 @@
+*{
+    margin: 0 auto;
+}
+body{
+    background: #f3eeee;
+    
+}
+h1{
+    background: #d7ec19;
+}
+.picture{
+    width: 920px;
+    height: 400px;
+   
+}
+img{
+    width: 300px;
+    height: 400px;
+}

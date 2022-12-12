@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+}
+
+body{
+    background: rgb(223, 99, 10);
+background: radial-gradient(circle, rgba(10, 223, 223, 0.023) 0%, rgba(7,210,184,0.2752451322325805) 49%, rgba(255,252,0,0.08196782130821079) 84%);
+}
+.загаловка{
+    width: 87%;
+    height: 80px;
+    margin: 0 auto;
+    align-items: center;
+    background: linear-gradient(131deg, rgba(223,10,29,1) 0%, rgba(210,194,7,0.7430322470785189) 49%, rgba(255,252,0,0.16039919385723034) 84%);
+}
+
+h1{
+    width: 20%;
+    text-align: right;
+  }
+
+nav{
+    margin-left: 50%;
+  
+}
+
+a{
+    width: 15%;
+    display: inline-block;
+    text-align: left;
+    
+    text-decoration: none;
+   /* text-transform: uppercase; */
+   color: #d22a14c6;
+   font-weight: bold;
+   font-size: 20px;
+}
+a:hover{
+    color: rgb(61, 226, 43);
+    font-size: 30px;
+   /* text-decoration-line: underline; */
+   text-transform: uppercase;
+}
+
+.container{
+   width: 87%;
+    display: flex;
+   justify-content: center;
+}
+
+.col{
+    width: 600px;
+    height: 280px;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.block{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    /* border: 1px solid; */
+    border-radius: 20px;
+    overflow: hidden;
+
+ }
+
+ .block:first-child{
+     border: 1px rgba(105, 90, 205, 0.573) solid;
+ }
+.block img{
+    width: 100%;
+    height: 100%;
+    transition: 0.9s all linear;
+    flex-grow: 1;
+}
+
+ .coll{
+     margin-left: 8%;
+    width: 800px;
+    height: 600px;
+    /* border: 1px solid; */
+    border-radius: 20px;
+    overflow: hidden;       
+}
+
+.coll img{
+    width: 100%;
+    height: 100%;
+    transition: 0.9s all linear;
+    flex-grow: 1;
+}
+
+.coll:hover img{transform: scale(1.7);}
+
+.block:hover img{transform: scale(1.5);}
+
+
+.coll h3{
+    text-align: center;
+    margin: 450px;
+    position: absolute;
+    color: aquamarine;
+    font-size: 30px;
+    flex-grow: 3;
+
+}
+.col h3{
+    text-align: center;
+    margin: 250px;
+    position: absolute;
+    color: rgb(255, 172, 127);
+    font-size: 30px;
+    flex-grow: 3; 
+}

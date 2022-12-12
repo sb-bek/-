@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: 350px;
+}
+.about{
+    background: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.service{
+    background: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment:fixed;
+}
+
+.container{
+    width: 87%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.col{
+    width: 28%;
+}
+.col img{
+    width: 100%;
+    border: 2px solid red;
+    height: 150px;
+}
+
+.col:first-child img{
+    object-fit: cover;
+    object-position: bottom; 
+}
+
+.col:nth-child(2) img{
+    object-fit: contain;
+}
+
+.col:last-child img{
+    object-fit: fill;
+}
+
+.icons{
+    text-align: center;
+}
+.icons i{
+/* font-size: 32px; */  /*fa-3x
+        fa-spin*/
+color: green;
+}
+
+.proba{
+    width: 200px;
+    height: 200px;
+    background-image: url('../img/fon.jpg');
+    border: 2px solid rebeccapurple;
+}

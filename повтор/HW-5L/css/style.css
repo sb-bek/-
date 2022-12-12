@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: O;
+    box-sizing: border-box;
+}
+.fixer{
+    display: block;
+    position: fixed;
+    left: 90%;
+    top: 300px;
+     text-align: center;
+    font-size: 10px;
+    font-weight:bolder;
+    object-fit: cover;
+
+     /*фиксер соотношение враузера не должен изменят*/
+}
+header{
+    width: 87%;
+    padding: 20px;
+    text-align: center;
+    line-height: 5em;
+    letter-spacing: 0.8em;
+}
+
+header h1{
+    text-transform:uppercase;
+    font-size: 10px;
+    font-weight:700;
+}
+header h2{
+    text-transform:uppercase;
+    font-size: 20px;
+
+}
+
+
+ a{
+    text-decoration: none;
+}
+
+.f1 a{
+    color: #000;
+}
+.f2 a{
+    color: beige;
+}
+.fixer .f1{
+    width: 100px;
+    padding: 10px 10px;
+    background-color: white;
+  
+}
+.fixer .f2{
+    width: 100px;
+    padding: 10px 10px;
+    color: white;
+    background: red;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    object-fit: fill;
+}
+
+.col{
+    border: 2px solid red;
+    width: 23%;
+    height: 250px;
+    text-align:center;
+    line-height: 2em;
+    font-weight:bolder;
+    font-size: 10px;
+}
+img{
+    width: 87%;
+    object-fit: fill;
+}
+
+.col a{
+display:block;
+width: 80%;
+color: aliceblue;
+background-color: #060000;
+object-fit: cover;
+}
+
+a:hover{
+    color: rgb(77, 77, 141);
+}
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.custom_text{
+    animation: change-text 2s infinite alternate;
+}
+@keyframes change-text{
+    0%{
+        font-size: 14px;
+        color: black;
+    }
+    100%{
+        font-size: 25px;
+        color: brown;
+    }
+    
+}
+    

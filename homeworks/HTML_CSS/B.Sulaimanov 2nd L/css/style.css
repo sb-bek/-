@@ -1,0 +1,25 @@
+.block{
+    background: #000;
+}
+.first{
+    width: 500px;
+}
+.first img{
+    widows: 100%;
+    height: 350px;
+}
+.second{
+    width: 300px;
+}
+.second img{
+    width: 100%;
+    height: 250px;
+}
+
+
+.text{
+    color: #a52a2a;
+}
+.text2{
+    color: #e3f113;
+}
