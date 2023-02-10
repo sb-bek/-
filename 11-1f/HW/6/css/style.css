@@ -1,0 +1,17 @@
+#ulist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  margin-right: 50px;
+}
+
+.g_1 {
+  height: 150px;
+  text-align: center;
+  width: 280px;
+  text-decoration: none;
+  border: 2px solid red;
+  border-radius: 10px;
+}

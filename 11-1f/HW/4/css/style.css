@@ -1,0 +1,42 @@
+/* li {
+  font-size: 34px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  text-decoration: none;
+  background-color: cadetblue;
+}
+
+.ulist {
+  text-decoration: none;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.global {
+  margin-top: 0;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.one {
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 30px;
+  background-color: cyan;
+}
+
+h2 {
+  font-size: 17px;
+  text-align: center;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  padding: 2px;
+}
